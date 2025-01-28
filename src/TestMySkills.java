@@ -31,7 +31,6 @@ public class TestMySkills {
             } catch (RuntimeException e) {
                 if(get.equals("exit")){
                     System.out.println("*****EXIT Form Main CAl*****");
-                    System.out.println("Thank You For Using Us");
                     break;
                 }else {
                     System.out.println("Enter The wrong Value");
@@ -214,7 +213,7 @@ public class TestMySkills {
         }
     }
     public static void LogFind(){
-        System.out.println("Strat Typing To stop and Get The Log output type (exit)");
+        System.out.println("Strat Typing To stop and Get The LogValue output type (exit)");
         Scanner scanner=new Scanner(System.in);
         int Start=0;
         String Get="";
