@@ -31,7 +31,7 @@ public class TestMySkills {
             } catch (RuntimeException e) {
                 if(get.equals("exit")){
                     System.out.println("*****EXIT Form Main CAl*****");
-                    System.out.println("Thank You For Using US");
+                    System.out.println("Thank You For Using Us");
                     break;
                 }else {
                     System.out.println("Enter The wrong Value");
@@ -93,7 +93,7 @@ public class TestMySkills {
         System.out.println("Strat Typing To stop and Get The Divide output type (exit)");
         Scanner scanner=new Scanner(System.in);
         int start=0;
-        Double Divisor=0.0;
+        Double Divisor;
         String get1="";
         String get2="";
         while (start>=0) {
@@ -126,7 +126,7 @@ public class TestMySkills {
         int start2=1;
         String get1="";
         String get2="";
-        int Sub=0;
+        int Sub;
         while (start>=0){
             start++;
             start2++;
@@ -185,7 +185,7 @@ public class TestMySkills {
         Scanner scanner=new Scanner(System.in);
         int Start=0;
         int  Start1=1;
-        double Modu=0;
+        double Modu;
         String Get="";
         String Get1="";
         while (Start>=0){
