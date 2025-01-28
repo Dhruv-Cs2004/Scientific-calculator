@@ -31,6 +31,7 @@ public class TestMySkills {
             } catch (RuntimeException e) {
                 if(get.equals("exit")){
                     System.out.println("*****EXIT Form Main CAl*****");
+                    System.out.println("Thank You For Using US");
                     break;
                 }else {
                     System.out.println("Enter The wrong Value");
